@@ -1,0 +1,47 @@
+.authorProfile-padding-top{
+    padding-top: 220px;
+}
+
+.avatarAuthorProfile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.authorProfile-boxModel{
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.authorAd-link{
+    text-decoration: none;
+    color: var(--black);
+    cursor: pointer;
+}
+
+.authorAd-ad-image{
+    width: 100px;
+}
+
+.authorAdCard{
+    /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.2); */
+    border: 1px solid rgba(70, 69, 69, 0.425);
+    transition: 0.3s;
+    text-decoration: none;
+    color: var(--black);
+    /* overflow: hidden; */
+}
+
+.authorAdCard:hover{
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.08);
+    transform: scale(1.04);
+    color: var(--black);
+}
+
+@media screen and (max-width: 575px) {
+    .authorProfile-padding-top{
+        padding-top: 40px;
+    }
+}

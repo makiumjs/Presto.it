@@ -1,0 +1,16 @@
+@import'~bootstrap/dist/css/bootstrap';
+@import './style';
+@import './detailAds';
+@import'./auth.css';
+@import'./indexAds.css';
+@import'./formAdStyle.css';
+@import '~flag-icons/css/flag-icons';
+@import './revisor';
+@import './home';
+@import './swiperHome.css';
+@import './authorProfileStyle.css';
+@import './privateProfileStyle.css';
+
+
+/* import styles bundle */
+/* @import '~swiper/swiper-bundle.css'; */

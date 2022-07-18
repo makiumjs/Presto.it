@@ -1,0 +1,76 @@
+:root{
+    --primaryColor: rgb(249, 212, 1);
+    --black: rgb(31, 31, 31);
+    --white: rgb(252, 252, 255);
+    --radius: 8px;
+    --shadow: 10px 24px 54px rgba(32, 30, 52, 0.16);
+    --fs-h1: 48px;
+}
+
+.container-ad-form{
+    padding-top: 12vh;
+}
+
+.form-box{
+    padding: 25px;
+    /* margin: 250px auto; */
+    /* background-color: white; */
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(70px);
+    /* border: 1px solid grey; */
+    border: 1px solid rgba(252, 252, 255, .18);
+    border-radius: var(--radius);
+}
+
+.form-btn{
+    padding: 10px 0px;
+    width: 100%;
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background-color: var(--primaryColor);
+    transition: 0.3s;
+}
+
+.form-btn:hover{
+    box-shadow: none;
+}
+
+.input-title{
+    margin-bottom: 5px;
+    font-weight: 900px;
+}
+
+.form-control, .form-select{
+    border: 1px solid var(--white); 
+    border-radius: var(--radius);
+}
+
+.form-control:focus, .form-select:focus{
+    box-shadow: none;
+    border: 1px solid black;
+}
+
+.bg-container-fluid{
+    background-image: url("/../media/bgCreaAnnuncio.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: auto;
+    min-height: 100vh;
+    height: max-content;
+}
+
+.floatingDescription{
+    height: 50px;
+}
+
+.z-index-upper{
+    z-index: 999;
+}
+
+@media screen and (max-width: 576px) {
+    .container-ad-form {
+        padding-top: 11vh;
+    }
+}

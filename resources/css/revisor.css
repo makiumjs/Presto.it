@@ -1,0 +1,115 @@
+/* REVISOR-DASHBOARD */
+/* card generica */
+.revisor-card{
+    background: var(--white);
+    box-shadow: var(--shadow);
+    border-radius: 14px;
+}
+
+/* classi width titoli */
+.w-title{
+    width: 35% !important;
+}
+
+.w-user{
+    width: 20% !important;
+}
+
+.w-date{
+    width: 30% !important;
+}
+
+.w-botton{
+    width: 15% !important;
+}
+
+
+
+/* REVISOR DETAIL */
+
+/* btn detail-revisor */
+
+.btn-accept{
+    display: inline-block;
+    padding: 10px 15px;
+    box-shadow: var(--shadow);
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background: transparent;
+}
+
+.btn-accept:hover{
+    color: white;
+    background: green !important;
+}
+
+.btn-reject{
+    margin-right: 5px;
+    display: inline-block;
+    padding: 10px 15px;
+    box-shadow: var(--shadow);
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    background: transparent;
+}
+.btn-reject:hover{
+    color: white;
+    background: red !important;
+}
+
+.btn-newads{
+    padding: 10px 15px;
+    border: none;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    background-color: var(--primaryColor);
+    transition: 0.3s;
+}
+
+.btn-newads:hover{
+    box-shadow: none;
+}
+
+#revisorCarUp{
+    width: 600px;
+}
+
+.revisor-informations-box{
+    box-shadow: var(--shadow);
+    border-radius: var(--radius);
+    margin: 20px 0px;
+    padding: 50px;
+}
+
+.detailsRevisor-padding-top{
+    padding-top: 120px;
+}
+
+.box-dash{
+    border: 1px solid black;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+@media screen and (max-width: 576px) {
+    .m-bottom{
+        margin-bottom: 10vh !important;
+    }
+    .detailsRevisor-padding-top{
+        padding-top: 50px;
+    }
+}

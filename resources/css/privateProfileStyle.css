@@ -1,0 +1,69 @@
+.privateProfile-padding-top{
+    padding-top: 150px;
+}
+
+.privateProfile-boxModel{
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.2);
+}
+
+.avatarPrivateProfile{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.privateProfile-input-form{
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 8px 10px;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.privateProfile-input-form:focus{
+    outline: none;
+    border: 2px solid var(--primaryColor);
+}
+
+.privateProfile-button-form{
+    border-radius: 5px;
+    background-color: var(--primaryColor);
+    border: none;
+    padding: 6px 40px;
+    font-weight: 500;
+}
+
+.authorAdCard{
+    position: relative;
+}
+
+.ads-status{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.span-bg-red{
+    background-color: #dc2e02;
+    color: white;
+}
+
+.span-bg-green{
+    background-color: #34a45f;
+    color: white;
+}
+
+.span-bg-yellow{
+    background-color: #ffd60a;
+    color: white;
+}

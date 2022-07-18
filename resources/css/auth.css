@@ -1,0 +1,58 @@
+:root{
+    --primaryColor: rgb(249, 212, 1);
+    --black: rgb(31, 31, 31);
+    --white: rgb(252, 252, 255);
+    --radius: 8px;
+    --shadow: 10px 24px 54px rgba(32, 30, 52, 0.16);
+    --fs-h1: 48px;
+}
+
+.bg-register{
+    background-image: url('/../media/bgRegistrati.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: auto;
+    padding-bottom: 20vh;
+}
+
+.register-form-container{
+    width: 80%;
+}
+
+.mt-150{
+    margin-top: 25vh;
+}
+
+/* .pb-150{
+    padding-bottom: 200px;
+} */
+
+.input-register{
+    border-radius: var(--radius);
+    border-color: var(--black);
+    height: 50px;
+}
+
+.bg-login{
+    background-image: url('/../media/bgLogin.png');
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    top: auto;
+    padding-bottom: 20vh;
+}
+
+
+@media screen and (max-width: 576px) {
+    .bg-login, .bg-register{
+        height: auto;
+        padding-bottom: 10vh;
+    }
+
+    .mt-150{
+        margin-top: 20vh;
+    }
+}
